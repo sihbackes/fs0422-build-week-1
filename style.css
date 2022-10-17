@@ -32,24 +32,32 @@ body {
 h1 {
   font-size: 50px;
   font-weight: bolder;
+  margin: 0;
 }
 h3 {
   font-size: 25px;
-  margin-bottom: 40px;
+  font-weight: normal;
+  margin: 20px;
 }
 
 .input-text {
-  margin-top: 50px;
-  width: 600px;
+  margin-top: 10px;
+  width: 700px;
   border: none;
   border-bottom: #a2127f 3px solid;
   background-color: transparent;
-  color: #e7e7eb;
+  color: #4b4e62;
+  padding: 10px 10px 10px 40px;
+  font-size: 17px;
 }
 span {
   margin: 10px;
 }
 
+.stars {
+  margin-top: 32px;
+  margin-bottom: 60px;
+}
 .btn {
   margin: 50px;
   height: 55px;
