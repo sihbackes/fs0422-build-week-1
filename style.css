@@ -21,7 +21,7 @@ body {
   color: #e7e7eb;
 }
 .logo {
-  max-height: 40px;
+  max-height: 35px;
   margin-top: 35px;
 }
 .review {
@@ -30,9 +30,9 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bolder;
-  margin: 0;
+  margin: 10px 0 0 0;
 }
 h3 {
   font-size: 25px;
@@ -52,8 +52,25 @@ h3 {
 }
 span {
   margin: 10px;
+  cursor: pointer;
+}
+.single-star {
+  filter: none;
 }
 
+.single-star2 {
+  filter: none;
+  cursor: pointer;
+}
+.single-star:hover {
+  filter: brightness(0) saturate(100%) invert(8%) sepia(26%) saturate(4148%)
+    hue-rotate(214deg) brightness(98%) contrast(104%);
+}
+
+.no-selected {
+  filter: brightness(0) saturate(100%) invert(8%) sepia(26%) saturate(4148%)
+    hue-rotate(214deg) brightness(98%) contrast(104%);
+}
 .stars {
   margin-top: 32px;
   margin-bottom: 60px;
@@ -69,4 +86,5 @@ span {
   color: #0a264d;
   -webkit-box-shadow: 0px 0px 32px 8px rgba(0, 255, 255, 0.61);
   box-shadow: 0px 0px 32px 8px rgba(0, 255, 255, 0.61);
+  cursor: pointer;
 }
